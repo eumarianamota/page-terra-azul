@@ -4,14 +4,14 @@ import image1 from '@/public/image1.png';
 
 export function Hero() {
     return (
-        <section className="bg-white text-gray-950 flex flex-col items-center justify-start h-screen px-3">
+        <section className="bg-white text-gray-950 flex flex-col items-center justify-start px-3">
             <header className="flex justify-center">
-                <Image className="w-10 pt-5 lg:w-20 lg:mb-20" src={logo1} alt="Logo Terra Azul" />
+                <Image className="w-10 pt-5 lg:w-20 md:mb-20" src={logo1} alt="Logo Terra Azul" />
             </header>
 
             <div className="md:flex gap-5 justify-center items-center lg:gap-10">
                 <div className="max-w-100 lg:max-w-200 flex flex-col lg:gap-4">
-                    <h1 className="text-2xl text-center font-bold mb-2 md:text-start lg:text-4xl">Saiba como podemos transformar propriedades irregulares em ativos legais</h1>
+                    <h1 className="text-2xl text-center font-bold mb-2 md:text-start lg:text-3xl">Saiba como podemos transformar propriedades irregulares em ativos legais</h1>
                     <p className="text-center text-gray-800 text-sm md:text-start lg:text-lg">Chega de insegurança nos processos, esse é o caminho para a segurança jurídica e social. <span className="font-bold" >Somos uma empresa especializada em Regularização Fundiária</span> e estamos aqui para te ajudar.</p>
                     <div className="flex justify-center md:justify-start">
                         <button
